@@ -3,7 +3,7 @@ Model for [Sound demixing challenge 2023: Music Demixing Track - MDX'23](https:/
 
 Model based on [Demucs4](https://github.com/facebookresearch/demucs), [MDX](https://github.com/kuielab/mdx-net) neural net architectures and some MDX weights from [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) project (thanks [Kimberley Jensen](https://github.com/KimberleyJensen) for great high quality vocal models). Brought to you by [MVSep.com](https://mvsep.com).
 ## Usage
-
+- Runs on Python3.9 with numpy 1.x.x
 ```
     python inference.py --input_audio mixture1.wav mixture2.wav --output_folder ./results/
 ```
