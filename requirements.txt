@@ -6,6 +6,7 @@ tqdm
 librosa
 demucs
 onnxruntime-gpu
+pybind11==2.11.1
 PyQt5
 gradio==3.27.0
 matplotlib
